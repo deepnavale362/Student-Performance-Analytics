@@ -70,5 +70,9 @@ pip install pandas matplotlib streamlit
 
 python -m streamlit run app.py
 
+## 📸 Dashboard Preview
+
+![Student Performance Analytics Dashboard](dashboard.png)
+
 👨‍💻 Author
 Deepak Nawale
