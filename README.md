@@ -28,6 +28,7 @@ The dashboard provides insights into:
 ## 📊 Dashboard Features
 
 ### 1. Dashboard Metrics
+
 Displays:
 - Total Students
 - Average Marks
@@ -35,21 +36,26 @@ Displays:
 - Top Student
 
 ### 2. Student Data
+
 Displays complete student performance data in an interactive table.
 
 ### 3. Subject-wise Analysis
+
 Shows average marks for:
 - Python
 - Java
 - DBMS
 
 ### 4. Attendance vs Performance
+
 A scatter plot shows the relationship between student attendance and average marks.
 
 ### 5. Top Performing Students
+
 Displays the top 5 students based on average marks.
 
 ### 6. Course Filter
+
 Allows users to filter the dashboard based on course.
 
 ## 📁 Project Structure
@@ -59,7 +65,9 @@ Student Performance Analytics
 │
 ├── app.py
 ├── students.csv
-└── README.md
+├── README.md
+└── dashboard.png
+```
 
 ## ▶️ How to Run
 
@@ -67,12 +75,31 @@ Install the required libraries:
 
 ```bash
 pip install pandas matplotlib streamlit
+```
 
+Run the Streamlit application:
+
+```bash
 python -m streamlit run app.py
+```
+
+The dashboard will open in your browser.
 
 ## 📸 Dashboard Preview
 
-<img src="./dashboard.png" alt="Student Performance Analytics Dashboard">
+![Student Performance Analytics Dashboard](dashboard.png)
 
-👨‍💻 Author
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- Reading and analyzing CSV data using Pandas
+- Calculating averages and statistics
+- Filtering and sorting DataFrames
+- Creating charts using Matplotlib
+- Building interactive dashboards using Streamlit
+- Using Git and GitHub for project management
+
+## 👨‍💻 Author
+
 Deepak Nawale
