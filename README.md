@@ -72,7 +72,7 @@ python -m streamlit run app.py
 
 ## 📸 Dashboard Preview
 
-![Student Performance Analytics Dashboard](dashboard.png)
+<img src="./dashboard.png" alt="Student Performance Analytics Dashboard">
 
 👨‍💻 Author
 Deepak Nawale
